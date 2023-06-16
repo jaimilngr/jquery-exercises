@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+
+<body style="font-size: 25px; padding: 5px;">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aliquam error est molestias sequi illum
+        dolores quis vel, consequuntur nostrum cumque assumenda, esse, facere perspiciatis officia veritatis atque
+        impedit placeat? Qui natus hic expedita reprehenderit corporis excepturi consequuntur atque dolorem animi, sunt
+        alias modi velit quos inventore illum error perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aliquam error est molestias sequi illum
+        dolores quis vel, consequuntur nostrum cumque assumenda, esse, facere perspiciatis officia veritatis atque
+        impedit placeat? Qui natus hic expedita reprehenderit corporis excepturi consequuntur atque dolorem animi, sunt
+        alias modi velit quos inventore illum error perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aliquam error est molestias sequi illum
+        dolores quis vel, consequuntur nostrum cumque assumenda, esse, facere perspiciatis officia veritatis atque
+        impedit placeat? Qui natus hic expedita reprehenderit corporis excepturi consequuntur atque dolorem animi, sunt
+        alias modi velit quos inventore illum error perspiciatis?</p>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous"></script>
+    <script>
+         $(document).ready(function () {
+                $('p').eq(0).on('click', function () {
+                    $(this).css('background-color', 'red');
+                });
+                $('p').eq(1).on('click', function () {
+                    $(this).css('background-color', 'green');
+                });
+                $('p').eq(2).on('click', function () {
+                    $(this).css('background-color', 'yellow');
+                });
+            });
+    </script>
+</body>
+
+</html>
